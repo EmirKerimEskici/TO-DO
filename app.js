@@ -11,5 +11,4 @@ $(".inputData").keyup(function (e) {
 });
 $("body").on("click", ".delete-button", function () {
     $(this).parent().remove();
-
 });
